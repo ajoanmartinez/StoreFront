@@ -1,0 +1,215 @@
+/*Common elements*/
+body {
+    background: #f3f2f2 url("https://images.unsplash.com/photo-1554109228-71a3d6082fed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") center 60% no-repeat fixed;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0; 
+}
+h1 {
+    color:  #009999;    
+    font-size: 2.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+    text-shadow: 1px 2px 0 #4d4d4d;  
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #555;
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+}
+a:hover {
+    color: #333;
+}
+.signin{
+    margin: 0 auto;   
+    padding: 0 7.0em;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+div.clear { 
+    clear:both;
+    font-size: 1%;
+}
+
+/*Header*/
+header{
+    padding: 2.5em  0.5em;
+    margin: 0 0 2.0em 0;
+    background: url("https://images.unsplash.com/photo-1505682634904-d7c8d95cdc50?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80") center 130% fixed
+}
+
+
+
+header h1 {
+    font-family: Georgia, serif;
+    color: #ffffcc;
+    font-size: 5.5em;
+    letter-spacing: -0.025em;
+    margin: 0 0.4em ;    
+    text-shadow: 1px 2px 0 #4d4d4d; 
+}
+/*Navbar*/
+nav {
+    color: #ffffcc;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0.4em ;
+    font-weight: bold;    
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #C64322;
+    padding: 0.3em 0.6em;
+}
+nav li a:hover {
+    color: #C64322;
+    background-color: rgba(252,251,243,0.75);
+}
+#nav-link a:hover {
+    color: #C64322;
+    background-color: rgba(252,251,243,0.75);
+}
+#nav-linkMenu {
+    float: right;
+    margin: -1em 22em 0 0;
+    padding: 0.35em;
+    height: 1.3em;
+}
+#nav-linkMenu li {
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: middle;    
+}
+#nav-linkMenu li a, #nav-linkMenu li a:visited
+{ 
+     padding: 0;
+}
+
+/*Book Club Event Section*/
+
+
+.eventbar {
+    float: left;
+    position: relative;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 1%;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+   }
+   section div.eventbar img.drivenLeader {
+    width: 80%;
+}
+/*Main Section*/
+
+.contentWrapper {
+    margin: 0 0 0em 5em;
+    width: 60%;
+    padding: 1.5em 0 0em 0.5em;
+    display: inline-block;
+    border-radius: .06em;   
+   }
+
+.panel{
+    float: left;
+    position: relative;
+    width: 25%;
+    height: 700px;
+    margin: 1em 0.5em 0.5em 1em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+   }
+
+#readingList{
+    color: #ffff99;
+}
+
+ #addCart{ 
+   background-color: #009999;
+   color: white;
+   margin-top: 10px;
+   height: 27px;
+   border-radius: 4px;
+   border: none;
+ }
+
+ #title{ 
+  
+    margin-top: 10px;
+    margin-bottom: 35px;
+    height: 27px;
+
+  }
+
+  #desc{ 
+ 
+    margin-top: 10px;
+    margin-bottom: 25px;
+    height: 27px;
+ 
+  }
+
+  #ourPrice{ 
+  
+    margin-top: 40px;
+    height: 27px;
+ 
+  }
+
+   section div.panel img.productType {
+    width: 100%;
+    border: solid 1px;
+    height: 425px;
+   }
+
+
+/*Footer*/
+footer {
+    height: 25px;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+}
